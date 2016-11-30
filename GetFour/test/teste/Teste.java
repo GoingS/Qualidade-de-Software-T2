@@ -193,6 +193,8 @@ public class Teste {
     }
     
     public void testAi2(){
+        // Este teste irá testar se a máquina irá bloquear na culuna a tentativa
+        // de fechar a sequência de 3 bolinhas na vertical de uma mesma cor
         Random rand = new Random();
         int row;
         int pos1, pos2, pos3;
